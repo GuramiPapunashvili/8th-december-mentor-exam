@@ -9,6 +9,6 @@ def tooLazyToComeUpWithGoodName(t1,t2):
     GCDOfdenominators = calculateGCD(t1[1],t2[1])
     return (t2[0] * t2[1]) / LCMOfdenominators + (t1[0] * t1[1]) / LCMOfdenominators
 
-print(tooLazyToComeUpWithGoodName((1,2),(1,3)))
+print(tooLazyToComeUpWithGoodName((1,2),(1,3))) #not working btw
 
 
