@@ -21,3 +21,7 @@ def uniqueWords(s):
 
 
 print(uniqueWords("The quick brown fox jumps over the lazy dog"))
+print(uniqueWords("Hello hello world!"))
+print(uniqueWords("Python is fun. Python is cool."))
+print(uniqueWords(""))
+print(uniqueWords("One word"))
