@@ -8,6 +8,10 @@ def pascalTriangle(num):
         print(row)  # Print the row
 
 pascalTriangle(5)
+pascalTriangle(1)
+pascalTriangle(2)
+pascalTriangle(3)
+pascalTriangle(0)
 
     
 
