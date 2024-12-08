@@ -14,4 +14,8 @@ def CaesarCipher(s,num):
     return ''.join(res) #finally we just return the joined version of our result
 
 
+print(CaesarCipher("abc", 2))
+print(CaesarCipher("xyz", 3))
+print(CaesarCipher("Python", 0))
+print(CaesarCipher("abc", -1))
 print(CaesarCipher("Hello, World!", 5))
