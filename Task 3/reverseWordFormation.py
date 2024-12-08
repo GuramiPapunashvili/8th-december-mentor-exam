@@ -4,3 +4,7 @@ def reverseWordFormation(s):
         return ''
     return ' '.join(arr[::-1]) #otherwise we just return reversed version of our array, because of slicing our array is read from right to left instead of left to right
 print(reverseWordFormation(''))
+print(reverseWordFormation('Hello World'))
+print(reverseWordFormation('Python is great'))
+print(reverseWordFormation('a b c'))
+print(reverseWordFormation('   Spaces'))
