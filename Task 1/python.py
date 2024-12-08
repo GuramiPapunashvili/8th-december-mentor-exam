@@ -10,3 +10,7 @@ def checkAnagram(s1,s2):
     return True
 
 print(checkAnagram('silent','listen'))
+print(checkAnagram('triangle",'integral"))
+print(checkAnagram('apple','pale'))
+print(checkAnagram('rat','car'))
+print(checkAnagram('a','a'))
