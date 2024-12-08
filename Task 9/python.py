@@ -9,4 +9,8 @@ def Primorial(num):
         if checkPrime(i): #if the number is prime we multiply it to the result
             res *= i
     return res #and we return the result
+print(Primorial(5))
+print(Primorial(10))
+print(Primorial(1))
+print(Primorial(7))
 print(Primorial(11))
