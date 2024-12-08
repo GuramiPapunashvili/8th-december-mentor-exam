@@ -8,5 +8,9 @@ def Xbonacci(num1,num2):
         res.append(sum(res[forAppend:])) #here we just append the sum of last N numbers
     return res #we simply return the result here
 print(Xbonacci(3,1))
+print(Xbonacci(3,10))
+print(Xbonacci(5,8))
+print(Xbonacci(2,10))
+print(Xbonacci(4,6))
 
         
