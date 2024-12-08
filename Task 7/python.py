@@ -13,3 +13,7 @@ def primeInRange(num1,num2):
     return res
 
 print(primeInRange(24,25))
+print(primeInRange(10,20))
+print(primeInRange(1,10))
+print(primeInRange(20,30))
+print(primeInRange(1,1))
